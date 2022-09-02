@@ -1,0 +1,22 @@
+{
+  "name": "my-rollup-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/bundle.js",
+  "module": "lib/bundle.esm.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^8.4.0",
+    "rollup-plugin-json": "^4.0.0",
+    "tslib": "^2.4.0",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "luxon": "^3.0.3"
+  }
+}

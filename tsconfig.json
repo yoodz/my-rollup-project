@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "target": "es2017",
+        "declaration": true,
+        "declarationDir": "lib",
+        "experimentalDecorators": true,
+        "importHelpers": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "sourceMap": true,
+        "jsx": "react-jsx",
+        "outDir": "lib",
+        "strict": true,
+        "allowSyntheticDefaultImports": true
+    },
+    "exclude": ["node_modules", "lib"]
+}
